@@ -1,0 +1,4 @@
+<div *ngFor="let item of statusCodes" (click)="myClickFunction($event,item)">
+  {{item.code}}
+</div>
+<app-status-code-table [code]="selectCode"></app-status-code-table>
